@@ -1,0 +1,228 @@
+:root{
+    --mainColor: #c2c2c2c7;
+    --secondaryColor: #f5f4f4;
+
+    --borderColor: #c1c1c1;
+
+    --mainText: #001233;
+    --secondaryText: #001845;
+    --thirdText: #0466C8;
+    --forthText: #979DAC;
+
+    --themeDotBorder: #0E3751;
+
+    /* to get a transparent color use rgba. the (a) determines 
+    how transparent the color will be*/
+
+    --previewBg: rgba(91, 213, 249, 0.5);
+
+    --previewShadow: #23C8FA;
+
+    --buttonColor: black;
+
+}
+
+/* Color palette for website
+#0466C8
+#0353A4
+#023E7D
+#002855
+#001845
+#001233
+#33415C
+#5C677D
+#7D8597
+#979DAC
+*/
+
+
+
+
+html, body{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+
+
+}
+
+body *{
+    transition: 0.3s;
+}
+
+h1, h2, h3, h4, h5, h6, strong{
+    color: var(--secondaryColor);
+    font-family: 'Playball', cursive;
+}
+
+
+p, li, span, label, input, textarea{
+    color: var(--secondaryColor);
+    font-family: 'STIX Two Text', serif;
+}
+
+a{
+    color:#979DAC;
+    font-family: 'Playball', cursive;
+    font-size: 29px;
+    transition: .6s;
+}
+
+a:hover{
+    color: #23C8FA;
+    text-decoration: none;
+
+}
+
+h1 { font-size: 56px;}
+h2 { font-size: 36px;}
+h3 { font-size: 28px;}
+h4 { font-size: 24px;}
+h5 { font-size: 20px;}
+h6 { font-size: 16px;}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar{
+    background-color: #001233;
+}
+
+.navbar-toggler{
+    background-color: #5C677D;
+}
+
+
+#welcome{
+    margin-left: 10px;
+    padding-top:100px;
+    justify-content: left;
+}
+
+#homebody{
+    background-image: url(images/deepred.jpg);
+    backdrop-filter: brightness(50%);
+    height: 100vh;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #001233;
+}
+
+#intro{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right:20px;
+
+}
+
+
+
+#aboutpage{
+    background-image: url(images/2monitorslarge.jpg);
+    backdrop-filter: blur(10px);
+    backdrop-filter: brightness(50%);
+    height: 100vh;
+    width: fill;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.about{
+    padding-top: 100px;
+    font-size: 25px;
+}
+
+#moreabout{
+    text-align: center;
+    font-size: 46px;
+    padding-top: 50px;
+    color:#c1c1c1;
+}
+
+.moreme{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#c1c1c1;
+    background-color: rgba(85, 85, 85, 0.5);
+}
+
+.social-links{
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'STIX Two Text', serif;
+    color: #0E3751;
+        
+}
+
+.linkone{
+    font-family: serif;
+    font-size: 20px;
+}
+
+
+
+@media (max-width: 575.98px){
+    .container{
+        width: 95%;    
+    }
+    #intro{
+        padding-bottom: 20px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color:rgba(63, 63, 63, 0.52);
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 767.98px){
+    .container{
+        width: 95%;    
+    }
+    #intro{
+        padding-bottom: 20px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color:rgba(63, 63, 63, 0.52);
+
+    }
+
+}
+
+@media  screen and (max-width: 991.98px){
+    .container{
+        width: 95%;
+    }
+
+    #intro{
+        padding-bottom: 20px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color:rgba(63, 63, 63, 0.52);
+
+    }
+
+}
+
+
+
+
+
+
