@@ -65,11 +65,11 @@ a{
     color:#979DAC;
     font-family: 'Playball', cursive;
     font-size: 29px;
-    transition: .6s;
+    transition: .10s;
 }
 
 a:hover{
-    color: #23C8FA;
+    color: #08d6ff;
     text-decoration: none;
 
 }
@@ -172,6 +172,66 @@ h6 { font-size: 16px;}
 }
 
 
+#portfoliopage{
+    background-image: url(images/blackedout.jpg);
+    backdrop-filter: blur(10px) brightness(50%);
+
+    height: 100vh;
+    width: fill;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#portfolio_title{
+    text-align: center;
+    font-size: 46px;
+    padding-top: 50px;
+    color:#c1c1c1;
+}
+
+.portfolio_projects{
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#c1c1c1;
+
+
+}
+
+.post{
+    text-align: center;
+    padding-top: 50px;
+
+
+}
+
+
+.post-title{
+    font-size: 30px;
+}
+
+.thumb-nail{
+    display: block;
+    justify-content: center;
+    width: 50vh;
+    height: 180px;
+    object-fit: center;
+    padding-left: 100px;
+}
+
+.post-intro{
+    font-size: 20px;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
 
 @media (max-width: 575.98px){
     .container{
@@ -206,9 +266,7 @@ h6 { font-size: 16px;}
 }
 
 @media  screen and (max-width: 991.98px){
-    .container{
-        width: 95%;
-    }
+
 
     #intro{
         padding-bottom: 20px;
