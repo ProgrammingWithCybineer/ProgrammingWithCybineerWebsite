@@ -69,7 +69,7 @@ a{
 }
 
 a:hover{
-    color: #08d6ff;
+    color: #03c31c;
     text-decoration: none;
 
 }
@@ -126,8 +126,6 @@ h6 { font-size: 16px;}
 
 #aboutpage{
     background-image: url(images/2monitorslarge.jpg);
-    backdrop-filter: blur(10px);
-    backdrop-filter: brightness(50%);
     height: 100vh;
     width: fill;
     background-attachment: fixed;
@@ -147,7 +145,8 @@ h6 { font-size: 16px;}
     text-align: center;
     font-size: 46px;
     padding-top: 50px;
-    color:#c1c1c1;
+    color:#222222;
+   
 }
 
 .moreme{
@@ -155,7 +154,7 @@ h6 { font-size: 16px;}
     padding-left: 20px;
     padding-right: 20px;
     color:#c1c1c1;
-    background-color: rgba(85, 85, 85, 0.5);
+    background-color: rgba(10, 10, 10, 0.5);
 }
 
 .social-links{
@@ -163,6 +162,7 @@ h6 { font-size: 16px;}
     text-align: center;
     font-family: 'STIX Two Text', serif;
     color: #0E3751;
+    background-color: rgba(10, 10, 10, 0.5);
         
 }
 
@@ -173,13 +173,12 @@ h6 { font-size: 16px;}
 
 
 #portfoliopage{
-    background-image: url(images/blackedout.jpg);
-    backdrop-filter: blur(10px) brightness(50%);
-
+    background-image: url(images/soothingspace.jpg);
+    backdrop-filter: blur (10px);
     height: 100vh;
     width: fill;
     background-attachment: fixed;
-    background-position: center;
+    background-position: right top;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -195,6 +194,7 @@ h6 { font-size: 16px;}
 
 .portfolio_projects{
     text-align: center;
+    font-size: 20px;
     padding-top: 50px;
     padding-left: 20px;
     padding-right: 20px;
@@ -216,21 +216,31 @@ h6 { font-size: 16px;}
 }
 
 .thumb-nail{
-    display: block;
+
     justify-content: center;
     width: 50vh;
     height: 180px;
     object-fit: center;
-    padding-left: 100px;
+
 }
 
+
 .post-intro{
+
     font-size: 20px;
     justify-content: center;
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
 
+}
+
+
+@media screen and (max-width: 1200px){
+    .main-container{
+        width: 95%;
+    
+    }
 }
 
 @media (max-width: 575.98px){
