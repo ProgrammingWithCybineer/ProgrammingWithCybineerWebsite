@@ -69,7 +69,7 @@ a{
 }
 
 a:hover{
-    color: #03c31c;
+    color: #0466C8;
     text-decoration: none;
 
 }
@@ -87,7 +87,7 @@ h6 { font-size: 16px;}
 }
 
 .navbar{
-    background-color: #001233;
+    background-color: #001845;
 }
 
 .navbar-toggler{
@@ -95,37 +95,55 @@ h6 { font-size: 16px;}
 }
 
 
-#welcome{
-    margin-left: 10px;
-    padding-top:100px;
-    justify-content: left;
+
+.homePage{
+    background-color:rgba(0, 0, 0, 0.623);
 }
+
+
 
 #homebody{
     background-image: url(images/deepred.jpg);
-    backdrop-filter: brightness(50%);
     height: 100vh;
-    max-width: 100%;
+    width: fill;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #001233;
+
 }
+
+
+.welcome{
+    margin-left: 10px;
+    padding-top: 100px;
+    justify-content: center;
+
+
+}
+
+.homeTitle{
+    text-align: center;
+    font-size: 56px;
+    padding-top: 1px;
+    color:#0466C8;
+}
+
 
 #intro{
     text-align: center;
     font-size: 25px;
-    padding-top: 10px;
-    padding-left: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
     padding-right:20px;
+    padding-bottom: 20px;
 
 }
 
 
 
 #aboutpage{
-    background-image: url(images/2monitorslarge.jpg);
+    background-image: url(images/DarkLaptop.jpg); 
     height: 100vh;
     width: fill;
     background-attachment: fixed;
@@ -139,13 +157,15 @@ h6 { font-size: 16px;}
 .about{
     padding-top: 100px;
     font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.623);
 }
 
 #moreabout{
     text-align: center;
     font-size: 46px;
-    padding-top: 50px;
-    color:#222222;
+    padding-top: 1px;
+    color:#0466C8;
+
    
 }
 
@@ -153,35 +173,49 @@ h6 { font-size: 16px;}
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
-    color:#c1c1c1;
-    background-color: rgba(10, 10, 10, 0.5);
+    color:#979DAC;
+
+
+}
+
+.findMe{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 10px;
+    padding-top: 1px;
+    color:#0466C8;
+
 }
 
 .social-links{
     padding-bottom: 20px;
     text-align: center;
     font-family: 'STIX Two Text', serif;
-    color: #0E3751;
-    background-color: rgba(10, 10, 10, 0.5);
-        
+    color: #dededf;
+       
 }
 
-.linkone{
+
+.social_Link{
+    color: #979DAC;
     font-family: serif;
     font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.623);
 }
 
 
+.portfolio{
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
 #portfoliopage{
-    background-image: url(images/soothingspace.jpg);
-    backdrop-filter: blur (10px);
+    background-image: url(images/DarkLaptop.jpg);
     height: 100vh;
     width: fill;
     background-attachment: fixed;
-    background-position: right top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 
@@ -189,7 +223,7 @@ h6 { font-size: 16px;}
     text-align: center;
     font-size: 46px;
     padding-top: 50px;
-    color:#c1c1c1;
+    color:#0466C8;
 }
 
 .portfolio_projects{
@@ -252,7 +286,7 @@ h6 { font-size: 16px;}
         text-align: center;
         padding-left: 10px;
         padding-right: 10px;
-        background-color:rgba(63, 63, 63, 0.52);
+
 
     }
 
@@ -269,7 +303,7 @@ h6 { font-size: 16px;}
         text-align: center;
         padding-left: 10px;
         padding-right: 10px;
-        background-color:rgba(63, 63, 63, 0.52);
+
 
     }
 
@@ -283,7 +317,6 @@ h6 { font-size: 16px;}
         text-align: center;
         padding-left: 10px;
         padding-right: 10px;
-        background-color:rgba(63, 63, 63, 0.52);
 
     }
 
