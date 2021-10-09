@@ -81,10 +81,12 @@ h4 { font-size: 24px;}
 h5 { font-size: 20px;}
 h6 { font-size: 16px;}
 
+
 .container{
     width: 1200px;
     margin: 0 auto;
 }
+
 
 .navbar{
     background-color: #001845;
@@ -97,36 +99,37 @@ h6 { font-size: 16px;}
 
 
 .homePage{
-    background-color:rgba(0, 0, 0, 0.623);
+
 }
 
 
 
 #homebody{
-    background-image: url(images/deepred.jpg);
+    background-image: url(images/door.jpg);
     height: 100vh;
     width: fill;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 
 .welcome{
-    margin-left: 10px;
+    padding-left: 20px;
     padding-top: 100px;
-    justify-content: center;
-
-
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 .homeTitle{
     text-align: center;
     font-size: 56px;
-    padding-top: 1px;
+    padding-top: 20px;
     color:#0466C8;
+
+
 }
 
 
@@ -137,6 +140,7 @@ h6 { font-size: 16px;}
     padding-left: 20px;
     padding-right:20px;
     padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.753);
 
 }
 
@@ -165,8 +169,6 @@ h6 { font-size: 16px;}
     font-size: 46px;
     padding-top: 1px;
     color:#0466C8;
-
-   
 }
 
 .moreme{
@@ -174,8 +176,6 @@ h6 { font-size: 16px;}
     padding-left: 20px;
     padding-right: 20px;
     color:#979DAC;
-
-
 }
 
 .findMe{
@@ -184,7 +184,6 @@ h6 { font-size: 16px;}
     font-weight: 10px;
     padding-top: 1px;
     color:#0466C8;
-
 }
 
 .social-links{
@@ -192,7 +191,6 @@ h6 { font-size: 16px;}
     text-align: center;
     font-family: 'STIX Two Text', serif;
     color: #dededf;
-       
 }
 
 
@@ -207,6 +205,7 @@ h6 { font-size: 16px;}
 .portfolio{
     background-color: rgba(0, 0, 0, 0.623);
 }
+
 
 #portfoliopage{
     background-image: url(images/DarkLaptop.jpg);
@@ -237,30 +236,29 @@ h6 { font-size: 16px;}
 
 }
 
+
 .post{
     text-align: center;
     padding-top: 50px;
-
-
 }
 
 
 .post-title{
     font-size: 30px;
+    color: #0353A4;
+
 }
 
-.thumb-nail{
 
+.thumb-nail{
     justify-content: center;
     width: 50vh;
     height: 180px;
     object-fit: center;
-
 }
 
 
 .post-intro{
-
     font-size: 20px;
     justify-content: center;
     padding-top: 20px;
@@ -268,6 +266,46 @@ h6 { font-size: 16px;}
     padding-right: 20px;
 
 }
+
+
+.projectLink:hover{
+    color: #36a104;
+    text-decoration: none;
+}
+
+
+
+#servicespage{
+    background-color: #5C677D;
+}
+
+.services{
+
+}
+
+
+#servicesTitle{
+    text-align: center;
+    font-size: 46px;
+    padding-top: 50px;
+    color:#0466C8;
+}
+
+
+
+
+
+
+
+
+
+#skills{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 24px;
+
+}
+
 
 
 @media screen and (max-width: 1200px){
