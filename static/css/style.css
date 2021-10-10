@@ -37,7 +37,6 @@
 
 
 
-
 html, body{
     padding: 0;
     margin: 0;
@@ -56,7 +55,7 @@ h1, h2, h3, h4, h5, h6, strong{
 }
 
 
-p, li, span, label, input, textarea{
+p,  span, label, input, textarea{
     color: var(--secondaryColor);
     font-family: 'STIX Two Text', serif;
 }
@@ -275,8 +274,16 @@ h6 { font-size: 16px;}
 
 
 
+
 #servicespage{
-    background-color: #5C677D;
+    background-image: url(images/darkkeyboard.jpg);
+    background-color: rgba(0, 0, 0, 0.623);
+    height: 100vh;
+    width: fill;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .services{
@@ -287,7 +294,7 @@ h6 { font-size: 16px;}
 #servicesTitle{
     text-align: center;
     font-size: 46px;
-    padding-top: 50px;
+    padding-top: 75px;
     color:#0466C8;
 }
 
@@ -302,18 +309,21 @@ h6 { font-size: 16px;}
 #skills{
     display: flex;
     justify-content: space-evenly;
-    font-size: 24px;
+    font-size: 28px;
+    padding-top: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
 
+
+}
+
+li{
+    font-family: 'STIX Two Text', serif;
+    color: #979DAC;
 }
 
 
 
-@media screen and (max-width: 1200px){
-    .main-container{
-        width: 95%;
-    
-    }
-}
 
 @media (max-width: 575.98px){
     .container{
@@ -324,8 +334,6 @@ h6 { font-size: 16px;}
         text-align: center;
         padding-left: 10px;
         padding-right: 10px;
-
-
     }
 
 }
@@ -345,6 +353,48 @@ h6 { font-size: 16px;}
 
     }
 
+    #homebody{
+        background-image: url(images/door.jpg);
+        height: 100vh;
+        width: fill;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #aboutpage{
+        background-image: url(images/DarkLaptop.jpg); 
+        height: 100vh;
+        width: fill;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+
+    #portfoliopage{
+        background-image: url(images/DarkLaptop.jpg);
+        height: 100vh;
+        width: fill;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #servicespage{
+        background-image: url(images/darkkeyboard.jpg);
+        background-color: rgba(0, 0, 0, 0.623);
+        height: 100vh;
+        width: fill;
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
 }
 
 @media  screen and (max-width: 991.98px){
@@ -361,7 +411,12 @@ h6 { font-size: 16px;}
 }
 
 
-
+@media screen and (max-width: 1200px){
+    .container{
+        width: 95%;
+    
+    }
+}
 
 
 
