@@ -1,24 +1,4 @@
 :root{
-    --mainColor: #c2c2c2c7;
-    --secondaryColor: #f5f4f4;
-
-    --borderColor: #c1c1c1;
-
-    --mainText: #001233;
-    --secondaryText: #001845;
-    --thirdText: #0466C8;
-    --forthText: #979DAC;
-
-    --themeDotBorder: #0E3751;
-
-    /* to get a transparent color use rgba. the (a) determines 
-    how transparent the color will be*/
-
-    --previewBg: rgba(91, 213, 249, 0.5);
-
-    --previewShadow: #23C8FA;
-
-    --buttonColor: black;
 
 }
 
@@ -33,9 +13,26 @@
 #5C677D
 #7D8597
 #979DAC
+
+
+#00a6fb
+#0582ca
+#006494
+#003554
+#051923
+
+
+#caf0f8
+#ade8f4
+#90e0ef
+#48cae4
+#00b4d8
+#0096c7
+#0077b6
+#023e8a
+#03045e
+#f72585
 */
-
-
 
 html, body{
     padding: 0;
@@ -56,20 +53,24 @@ h1, h2, h3, h4, h5, h6, strong{
 
 
 p,  span, label, input, textarea{
-    color: var(--secondaryColor);
+    color: #caf0f8;
     font-family: 'STIX Two Text', serif;
 }
 
 a{
+    display: flex;
+    justify-content: space-evenly;
     color:#979DAC;
     font-family: 'Playball', cursive;
     font-size: 29px;
     transition: .10s;
+
 }
 
 a:hover{
-    color: #0466C8;
+    color: #f72585;
     text-decoration: none;
+    font-weight: bold;
 
 }
 
@@ -88,14 +89,20 @@ h6 { font-size: 16px;}
 
 
 .navbar{
-    background-color: #001845;
+    background-color: #051923;
 }
 
 .navbar-toggler{
-    background-color: #5C677D;
+    background-color: #90e0ef;
 }
 
+#home, #about{
+    color:#90e0ef;
+}
 
+.navbar-toggler-icon{
+    color:#03045e;
+}
 
 .homePage{
 
@@ -126,7 +133,7 @@ h6 { font-size: 16px;}
     text-align: center;
     font-size: 56px;
     padding-top: 20px;
-    color:#0466C8;
+    color:#00a6fb;
 
 
 }
@@ -167,14 +174,14 @@ h6 { font-size: 16px;}
     text-align: center;
     font-size: 46px;
     padding-top: 1px;
-    color:#0466C8;
+    color:#00a6fb;
 }
 
 .moreme{
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
-    color:#979DAC;
+    color:#ade8f4;
 }
 
 .findMe{
@@ -182,7 +189,7 @@ h6 { font-size: 16px;}
     font-size: 46px;
     font-weight: 10px;
     padding-top: 1px;
-    color:#0466C8;
+    color:#00a6fb;
 }
 
 .social-links{
@@ -194,10 +201,9 @@ h6 { font-size: 16px;}
 
 
 .social_Link{
-    color: #979DAC;
+    color: #ade8f4;
     font-family: serif;
     font-size: 20px;
-    background-color: rgba(0, 0, 0, 0.623);
 }
 
 
@@ -221,7 +227,7 @@ h6 { font-size: 16px;}
     text-align: center;
     font-size: 46px;
     padding-top: 50px;
-    color:#0466C8;
+    color:#00a6fb;
 }
 
 .portfolio_projects{
@@ -230,7 +236,7 @@ h6 { font-size: 16px;}
     padding-top: 50px;
     padding-left: 20px;
     padding-right: 20px;
-    color:#c1c1c1;
+    color:#caf0f8;
 
 
 }
@@ -243,8 +249,8 @@ h6 { font-size: 16px;}
 
 
 .post-title{
-    font-size: 30px;
-    color: #0353A4;
+    font-size: 40px;
+    color: #00a6fb;
 
 }
 
@@ -267,17 +273,29 @@ h6 { font-size: 16px;}
 }
 
 
-.projectLink:hover{
-    color: #36a104;
+.projectLink{
+    color: #48cae4;
     text-decoration: none;
+
+
+}
+
+.projectLink:hover{
+    color: #f72585;
+    text-decoration: none;
+
+
 }
 
 
+.services{
+
+
+}
 
 
 #servicespage{
-    background-image: url(images/darkkeyboard.jpg);
-    background-color: rgba(0, 0, 0, 0.623);
+    background-image: url(images/colorkeyboard.jpg);
     height: 100vh;
     width: fill;
     background-attachment: fixed;
@@ -286,19 +304,26 @@ h6 { font-size: 16px;}
     background-size: cover;
 }
 
-.services{
 
-}
 
 
 #servicesTitle{
     text-align: center;
     font-size: 46px;
     padding-top: 75px;
-    color:#0466C8;
+    padding-bottom: 25px;
+    color:#caf0f8;
 }
 
-
+.serviceDetails{
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 5px;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 
 
@@ -313,14 +338,102 @@ h6 { font-size: 16px;}
     padding-top: 75px;
     padding-left: 20px;
     padding-right: 20px;
+   
 
 
 }
 
 li{
     font-family: 'STIX Two Text', serif;
-    color: #979DAC;
+    color: #ade8f4;
 }
+
+
+
+
+#consultationbackground{
+    background-image:url(images/colorkeyboard.jpg);
+    height: 100vh;
+    width: fill;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.scheduleConsultation{
+    text-align: center;
+    color:#00a6fb;
+
+}
+
+
+
+
+.consultationdetails{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+
+.container {
+    border-radius: 5px;
+    background-color: #979DAC;
+    padding: 20px;
+}
+
+.form-group{
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;    
+}
+
+.form-row{
+    margin-bottom: 5px;
+}
+
+.form-control{
+    background-color:#dededf;
+}
+
+#inputfield{
+    margin-bottom: 20px;
+
+}
+
+#methodContact{
+    font-size: 20px;
+    color: #051923;
+}
+
+.btn{
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    border: solid;
+    background-color: #90e0ef;
+    border-color:#90e0ef;
+    font-weight: bold;
+    color:#f72585;
+}
+
+.btn:hover{
+    background-color:#002855;
+    border-color:#002855;
+    font-weight: bold;
+    color:#f72585;
+}
+
+
 
 
 
@@ -385,12 +498,11 @@ li{
     }
 
     #servicespage{
-        background-image: url(images/darkkeyboard.jpg);
-        background-color: rgba(0, 0, 0, 0.623);
+        background-image:  url(images/colorkeyboard.jpg);
         height: 100vh;
         width: fill;
         background-attachment: fixed;
-        background-position: center center;
+        background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }

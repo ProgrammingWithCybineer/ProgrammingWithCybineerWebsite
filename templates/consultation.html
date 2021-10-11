@@ -5,6 +5,68 @@
 
 
 <body id="consultationbackground">
-    <!--<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd6ehqumqbARqVpsShNc6AilUfwzo9IPHCbNApAWVWA9VYVdA/viewform?embedded=true" width="640" height="844" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>-->
+    <h2 class="scheduleConsultation">Schedule a FREE Consultation</h2>
+    <p class="consultationdetails">
+        The process starts when you fill out our contact form below. 
+        You will receive a response email within 1 to 3 business days requesting that 
+        we schedule a call to learn more about your needs. We’ll need to have a 
+        brief phone conversation to get a sense of your project’s needs in order to be able 
+        to give you a proper quote.
+    </p>
+    <p class="consultationdetails">
+        This initial call will only take between 15-30 minutes. We'll ask you a series of questions
+        to determine your goals for your project, absolute must haves, your timeline and other important
+        details that would affect your project. 
+    </p>
+    <p class="consultationdetails">
+        Within 1-2 business days we will email you a proposal for your project. This will include a detailed
+        list of all services and features provided as well as a timeline for your project and a quote for the
+        project cost.
+    </p>
+    <p class="consultationdetails">
+        If for any reason you are not happy with the emailed proposal, simply
+        reply back to the email stating such. ABSOLUTELY NO HARD FEELINGS!!
+    </p>
+
+    <div class="container">
+    <form action="https://formsubmit.co/programwithcy@programmingwithcybineer.com" method="POST">
+        <input type="hidden" name="_subject" value="Consultation Request!">
+        <input type="hidden" name="_next" value="https://programmingwithcybineer.com/thankyou.html">
+        <div class="form-group">
+            <div class="form-row">
+              <div id="inputfield" class="col-md-12 ">
+                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+              </div>
+              <div id="inputfield" class="col-md-12 ">
+                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+              </div>
+              <div id="inputfield" class="col-md-12 ">
+                <input type="phone" name="phone" class="form-control" placeholder="Phone">
+              </div>
+              <div class="col-md-12 ">
+                <label  id="methodContact" for="MethodOfContact">Preferred Contact Method</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>Email</option>
+                  <option>Phone</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Description Of Services Needed" class="form-control" name="message" rows="10" required></textarea>
+          </div>
+        <div class="col-md-12 text-center">  
+            <button id="btn" type="submit" class="btn btn-lg ">Send Message</butto>
+        </div>
+    </form>
+    </div>
+
+
 </body>
+
+
+
+
+
+
 {% endblock %}
