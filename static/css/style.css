@@ -112,6 +112,7 @@ h6 { font-size: 16px;}
 
 #homebody{
     background-image: url(images/door.jpg);
+    background-color: #001233;
     height: 100vh;
     width: fill;
     background-attachment: fixed;
@@ -153,7 +154,8 @@ h6 { font-size: 16px;}
 
 
 #aboutpage{
-    background-image: url(images/DarkLaptop.jpg); 
+    background-image: url(images/DarkLaptop.jpg);
+    background-color: #001233; 
     height: 100vh;
     width: fill;
     background-attachment: fixed;
@@ -214,6 +216,7 @@ h6 { font-size: 16px;}
 
 #portfoliopage{
     background-image: url(images/DarkLaptop.jpg);
+    background-color: #001233;
     height: 100vh;
     width: fill;
     background-attachment: fixed;
@@ -298,6 +301,7 @@ h6 { font-size: 16px;}
 
 #servicespage{
     background-image: url(images/colorkeyboard.jpg);
+    background-color: #001233;
     height: 100vh;
     width: fill;
     background-attachment: fixed;
@@ -355,6 +359,7 @@ li{
 
 #consultationbackground{
     background-image:url(images/colorkeyboard.jpg);
+    background-color: #001233;
     height: 100vh;
     width: fill;
     background-attachment: fixed;
@@ -489,6 +494,7 @@ li{
 
     #homebody{
         background-image: url(images/door.jpg);
+        background-color: #001233;
         height: 100vh;
         width: fill;
         background-attachment: fixed;
@@ -498,7 +504,8 @@ li{
     }
 
     #aboutpage{
-        background-image: url(images/DarkLaptop.jpg); 
+        background-image: url(images/DarkLaptop.jpg);
+        background-color: #001233; 
         height: 100vh;
         width: fill;
         background-attachment: fixed;
@@ -510,6 +517,7 @@ li{
 
     #portfoliopage{
         background-image: url(images/DarkLaptop.jpg);
+        background-color: #001233;
         height: 100vh;
         width: fill;
         background-attachment: fixed;
@@ -520,6 +528,7 @@ li{
 
     #servicespage{
         background-image:  url(images/colorkeyboard.jpg);
+        background-color: #001233;
         height: 100vh;
         width: fill;
         background-attachment: fixed;
