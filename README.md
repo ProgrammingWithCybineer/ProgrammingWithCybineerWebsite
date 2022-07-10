@@ -1,4 +1,4 @@
-# ProgrammingWithCybineerWebsite
+# ProgrammingWithCybineer Website
 
 This is my freelance website. This website is publicly host and can be view at the link below:
 www.programmingwithcybineer.com
