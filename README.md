@@ -19,4 +19,4 @@ www.programmingwithcybineer.com
 
 •	Log in Capability
 
-•	Ability to check status of work requested
+•	Ability to check the status of work requested.
